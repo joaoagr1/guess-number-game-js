@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+   <div class="main-div">
+    <br>
+      <h2>Configuração Inicial</h2>
+      <br>
+      <form id="numeroForm">
+         <input type="text" class="form-control" placeholder="Range do sorteio" id="numeroEscolhido" name="numeroEscolhido" required>
+         <br>
+         <input type="text" class="form-control" placeholder="Número de tentativas" id="numeroEscolhido" name="numeroEscolhido" required>
+         <br>
+         <br>
+         <button type="submit" class="btn btn-primary">Enviar</button>
+         <br>
+         <br>
+         <div id="message"></div>
+         <div id="tentativas"></div>
+      </form>
+   </div> 
+
+   <script src="control.js"></script>
+</body>
+</html>
