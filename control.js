@@ -1,4 +1,4 @@
-var numeroSortido = Math.floor(Math.random() * 500) + 1;
+      var numeroSortido = Math.floor(Math.random() * 500) + 1;
       var contErro = 0;
       var tentativas= 0;
       var indicadorTentativas=7;
