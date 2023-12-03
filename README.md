@@ -2,6 +2,9 @@
 
 Welcome to the Random Number Guessing Game! This simple web-based game allows users to guess a randomly generated number within a specified range.
 
+![print](print.png)
+
+
 ## Features
 
 - Interactive Number Guessing Interface
